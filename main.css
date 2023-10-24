@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    width: 100%;
+    background-color: white;
+}
+nav{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-left: 20px;
+    padding-right: 5% ;
+    background-color: #BF2F31 ;
+    overflow-x: hidden;
+}
+.left .logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo h1{
+    font-size: small;
+    font-weight: 800;
+    border: 1.5px solid white;
+    margin-top: 1.5px;
+    padding: 1.5px;
+}
+.right{
+    width: 90%;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.links{
+    padding-left:10%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5%;
+    font-size: 2.5vmin;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+}
+.menu{
+    display: none;
+}
+
+@media only screen and (max-width:850px){
+    .nav-li{
+        height: 100vh;
+    }
+    .links{
+        
+        font-size: larger;
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        left: 25%;
+        bottom: 40%;
+        margin-bottom: 900px;
+        /* background-color: #BF2F31; */
+        /* margin: 40% 30% 40% 30%; */
+    } 
+    .mobile-menu{
+        margin-bottom: 0%;
+    }
+    .links a{
+        align-items: center;
+        margin-top: 30px;
+        cursor: col-resize;
+        font-size: medium;
+        font-weight: 700;
+    }
+    .menu{
+        display: block;
+        margin-top: 10px;
+    }
+   
+} 

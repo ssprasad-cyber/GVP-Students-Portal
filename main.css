@@ -47,7 +47,7 @@ nav{
     color: white;
     text-decoration: none;
     padding-left: 5%;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     align-items: center;
@@ -124,7 +124,7 @@ nav{
 
 /* main page */
 main{
-    background-image: url(https://github.com/eagerclub1/GVP-Student-Portal/blob/main/assects/gvp%20design%20source%202-1%201.jpg?raw=true);
+    background-image: url(https://github.com/eagerclub1/GVP-Student-Portal/blob/main/assects/campus1.png?raw=true);
     background-attachment: fixed;
     background-position: center;
     width: 100%;

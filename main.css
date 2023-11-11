@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: "Inter", sans-serif;
+
 }
 body{
     width: 100%;
@@ -69,41 +70,6 @@ nav{
 
 }
 
-@media only screen and (max-width:850px){
-    .nav-li{
-        height: 100vh;
-        text-align: center;
-    }
-    .links{
-        
-        font-size: larger;
-        position: absolute;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        left: 25%;
-        bottom: 40%;
-        margin-bottom: 900px;
-        text-align:center;
-    } 
-    .mobile-menu{
-        margin-bottom: 0%;
-    }
-    .links a{
-        align-items: center;
-        margin-top: 30px;
-        cursor: col-resize;
-        font-size: medium;
-        font-weight: 700;
-    }
-    .menu{
-        display: block;
-        margin-top: 10px;
-    }
-   
-} 
-
 /* notification */
 .notifications{
     position: relative;
@@ -126,15 +92,91 @@ nav{
 
 /* main page */
 main{
-    background-image: url(https://github.com/eagerclub1/GVP-Student-Portal/blob/main/assects/campus1.png?raw=true);
+    background: url(https://github.com/eagerclub1/GVP-Student-Portal/blob/main/assects/campus.png?raw=true);
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-    justify-content: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5%;
+    text-shadow: 
+        0px 0px 14px #d8b54e,
+        0px 0px 16px #dd8282;
+    
+}
 
+.gvp{
+    padding-top: 20px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.gvp img{
+    width: 16%;
+}
+
+.code{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
 }
 section{
     background-color: white;
 }
+.null{
+    display: block;
+}
+.null-a{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width:850px){
+    .nav-li{
+        height: 100vh;
+    }
+    .links{
+        
+        font-size: larger;
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        left: 25%;
+        bottom: 40%;
+        margin-bottom: 900px;
+    } 
+    .mobile-menu{
+        margin-bottom: 0%;
+    }
+    .links a{
+        align-items: center;
+        margin-top: 30px;
+        cursor: col-resize;
+        font-size: medium;
+        font-weight: 700;
+    }
+    .menu{
+        display: block;
+        margin-top: 10px;
+    }
+    main{
+        padding-top: 3%;
+        background-size: auto;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .gvp img{
+        width: 40%;
+    }
+    .name p{
+        margin-top: 3%;
+    }
+} 

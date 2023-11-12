@@ -43,6 +43,7 @@ nav{
     align-content: space-between;
     align-items: center;
     padding-top: 2%;
+    text-align: center;
 }
 .links a{
     color: white;
@@ -78,6 +79,7 @@ nav{
     display: flex;
     align-items: center;
     overflow-x: hidden;
+    
 }
 .notifications a {
     text-decoration: solid;

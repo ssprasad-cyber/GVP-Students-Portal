@@ -4,17 +4,20 @@ const nav = document.querySelector("nav");
 const nut = document.querySelector(".nul");
 const main = document.querySelector(".main");
 const page1 = document.querySelector(".page1");
+const menu = document.querySelector(".container");
 btn.addEventListener("click",() => {
     link.classList.toggle("mobile-menu");
+    menu.classList.toggle("change");
     nav.classList.toggle("nav-li");
     nut.classList.toggle("null-a");
     main.classList.toggle("null-a");
     page1.classList.toggle("null-a");
+    x.classList.toggle("change");
 })
 console.log(nut)
 //notification bar;
 const notify = document.querySelector(".notifications");
-const notifications = new Set(["eager club batch 1 -20 members", "eager club batch 2 -34 members", "eager club batch 3 -102 members"]);
+const notifications = new Set(["vamsi just visited the code","eager club batch 1 -20 members", "eager club batch 2 -34 members", "eager club batch 3 -102 members"]);
 
 for(const x of notifications.values()){
     const no = document.createElement("span");

@@ -263,7 +263,7 @@ section{
     height: 80vh;
     text-align: center;
     padding-top: 20px;
-    overflow: hidden;
+    
 }
 .b-title{
     font-size: xx-large;
@@ -294,7 +294,6 @@ section{
     transition: 1s;
     left: 0;
     align-items: center;
-    
 }
 .bran{
     display: flex;
@@ -514,13 +513,14 @@ section{
     /* branch slider */
     
     .branch{
-        
+        overflow: hidden;
         display: none;
     }
     /* mob branches */
     .page2{
         height: 40vh;
         text-align: center;
+        overflow: hidden;
     }
     .mob{
         width: 100%;

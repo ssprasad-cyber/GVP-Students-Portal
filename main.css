@@ -263,6 +263,7 @@ section{
     height: 80vh;
     text-align: center;
     padding-top: 20px;
+    overflow: hidden;
 }
 .b-title{
     font-size: xx-large;
@@ -536,7 +537,7 @@ section{
     .mob button{
         width: 150px;
         height: 40px;
-        margin: 16px;
+        margin: 13px;
         background-color: #2f51bf;
         border: transparent;
         border-radius: 6px;

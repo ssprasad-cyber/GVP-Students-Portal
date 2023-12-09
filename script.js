@@ -29,4 +29,5 @@ for(const x of notifications.values()){
     notify.appendChild(a);
     
 }
+
 console.log(notify)

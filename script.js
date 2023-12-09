@@ -4,6 +4,12 @@ const nav = document.querySelector("nav");
 const nut = document.querySelector(".nul");
 const main = document.querySelector(".main");
 const page1 = document.querySelector(".page1");
+const page2 = document.querySelector(".page2");
+const page3 = document.querySelector(".page3-1");
+const page4 = document.querySelector(".page4");
+const page5 = document.querySelector(".page5");
+const page6 = document.querySelector(".page6");
+const footer = document.querySelector("footer");
 const menu = document.querySelector(".container");
 btn.addEventListener("click",() => {
     link.classList.toggle("mobile-menu");
@@ -12,6 +18,12 @@ btn.addEventListener("click",() => {
     nut.classList.toggle("null-a");
     main.classList.toggle("null-a");
     page1.classList.toggle("null-a");
+    page2.classList.toggle("null-a");
+    page3.classList.toggle("null-a");
+    page4.classList.toggle("null-a");
+    page5.classList.toggle("null-a");
+    page6.classList.toggle("null-a");
+    footer.classList.toggle("null-a");
     x.classList.toggle("change");
 })
 console.log(nut)

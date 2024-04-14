@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    width: 100%;
+    background-color: white;
+    overflow-x: hidden;
+}
+nav{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-left: 20px;
+    padding-right: 5% ;
+    background-color: #BF2F31 ;
+    overflow-x: hidden;
+}
+.left .logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo h1{
+    font-size: small;
+    font-weight: 800;
+    border: 1.5px solid white;
+    margin-top: 1.5px;
+    padding: 1.5px;
+}
+.right{
+    width: 90%;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.links{
+    padding-left:10%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5%;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+}
+.links a:active{
+    color: #E9B824;
+}
+.menu{
+    display: none;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  .change .bar2 {opacity: 0;}
+
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  footer{
+    background-color: #BF2F31;
+    display: flex;
+    justify-content: space-around;
+    align-content:space-around ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.imp-li{
+    color: #ffffff;
+    text-align: start;
+}
+.imp-li a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.i-li{
+    margin-left: -23%;
+}
+/* department page main code */
+main{
+    background-color: none;
+}
+.card-slider{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.slider-con{
+    /* width: m-content; */
+    display: flex;
+    margin-top: 2%;
+    padding-left: 15% ;
+    padding-right: 10% ;
+}
+.slider-con div{
+    width: 10rem;
+    height: 14rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 2%;
+}
+.bi1{
+    background-image: url("https://i.pinimg.com/236x/70/d2/a5/70d2a5bfb09edcb66b7507e1a3e199ec.jpg");
+    background-size :cover ;
+    background-position-x: center;
+}
+.bi2{
+    background-image: url("https://i.pinimg.com/236x/bd/b8/d9/bdb8d9ba46a681ff5ac1b5e9400234a3.jpg");
+    background-size :cover ;
+    background-position-x: center;
+
+}
+.bi3{
+    background-image: url("https://i.pinimg.com/236x/b9/ad/21/b9ad216eefb314db10a01bfbba7dd16b.jpg");
+    background-size :cover ;
+    background-position-x: center;
+
+}
+.bi4{
+    background-image: url("https://i.pinimg.com/236x/af/db/77/afdb77e53bd41602b48ecfa88e6f728a.jpg");
+    background-size :cover ;
+    background-position-x: center;
+
+}
+.bi5{
+    background-image: url(https://i.pinimg.com/236x/e9/ae/88/e9ae8820a80c94b154f653b8637f6fcc.jpg);
+    background-size :cover ;
+    background-position-x: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1235px){
+    .links{
+        align-items: center;
+    }
+    .links a{
+        font-size: 1.14vw;
+        font-weight: 700;
+    }
+
+}
+@media only screen and (max-width:850px){
+    .nav-li{
+        height: 100vh;
+        text-align: center;
+    }
+    .links{
+        
+        font-size: larger;
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        left: 25%;
+        bottom: 40%;
+        margin-bottom: 900px;
+    } 
+    .mobile-menu{
+        margin-bottom: 0%;
+    }
+    .links a{
+        align-items: center;
+        margin-top: 30px;
+        cursor: col-resize;
+        font-size: medium;
+        font-weight: 700;
+    }
+    .menu{
+        display: block;
+        margin-top: 10px;
+    }
+    footer{
+        background-color: #BF2F31;
+        display: block;
+    }
+    .i-li{
+        margin-left: -10%;
+    }
+} 
+
